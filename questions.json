@@ -1,0 +1,613 @@
+{
+  "r1": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "topic": "DSA",
+      "question": "Push 1, 2, 3. Pop. Push 4. Pop. Pop. Which element is on top now?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "1",
+      "points": 1
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy",
+      "topic": "DSA",
+      "question": "Enqueue A, B, C. Dequeue. Enqueue D. Dequeue. Which element is at the front?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "C",
+      "points": 1
+    },
+    {
+      "id": 3,
+      "difficulty": "Medium",
+      "topic": "DSA",
+      "question": "A sorted array has 100 elements. What is the worst-case number of comparisons for binary search?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "50"
+      ],
+      "answer": "7",
+      "points": 1.5
+    },
+    {
+      "id": 4,
+      "difficulty": "Medium",
+      "topic": "DSA",
+      "question": "Time complexity of: i = 1; while i < n: i *= 2",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(sqrt n)"
+      ],
+      "answer": "O(log n)",
+      "points": 1.5
+    },
+    {
+      "id": 5,
+      "difficulty": "Hard",
+      "topic": "DSA",
+      "question": "Insert 5, 3, 8, 1 one by one into an empty min-heap stored as an array. Which value is at index 1 (second position)?",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "8"
+      ],
+      "answer": "3",
+      "points": 1.9
+    },
+    {
+      "id": 6,
+      "difficulty": "Easy",
+      "topic": "SQL",
+      "question": "Which clause filters groups after GROUP BY?",
+      "options": [
+        "WHERE",
+        "HAVING",
+        "ORDER BY",
+        "LIMIT"
+      ],
+      "answer": "HAVING",
+      "points": 1
+    },
+    {
+      "id": 7,
+      "difficulty": "Medium",
+      "topic": "SQL",
+      "question": "A table has 10 rows and 3 have a NULL email. What does SELECT COUNT(email) return?",
+      "options": [
+        "10",
+        "7",
+        "3",
+        "0"
+      ],
+      "answer": "7",
+      "points": 1.5
+    },
+    {
+      "id": 8,
+      "difficulty": "Medium",
+      "topic": "SQL",
+      "question": "Table A has ids 1, 2, 3 and table B has ids 2, 3, 4. How many rows does A LEFT JOIN B ON A.id = B.id return?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": "3",
+      "points": 1.5
+    },
+    {
+      "id": 9,
+      "difficulty": "Hard",
+      "topic": "SQL",
+      "question": "A table t has x values 1, 2 and NULL. What does SELECT COUNT(*) FROM t WHERE x NOT IN (1) return?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "1",
+      "points": 1.9
+    },
+    {
+      "id": 10,
+      "difficulty": "Easy",
+      "topic": "Networks",
+      "question": "Which port does HTTPS use by default?",
+      "options": [
+        "80",
+        "443",
+        "21",
+        "8080"
+      ],
+      "answer": "443",
+      "points": 1
+    },
+    {
+      "id": 11,
+      "difficulty": "Easy",
+      "topic": "Networks",
+      "question": "At which OSI layer does a router mainly work?",
+      "options": [
+        "Physical",
+        "Data link",
+        "Network",
+        "Transport"
+      ],
+      "answer": "Network",
+      "points": 1
+    },
+    {
+      "id": 12,
+      "difficulty": "Medium",
+      "topic": "Networks",
+      "question": "A PC shows 169.254.12.7 and has no internet. Likely cause?",
+      "options": [
+        "DNS cache corrupted",
+        "No DHCP server replied",
+        "The website is blocked",
+        "The cable is too long"
+      ],
+      "answer": "No DHCP server replied",
+      "points": 1.5
+    },
+    {
+      "id": 13,
+      "difficulty": "Easy",
+      "topic": "Networks",
+      "question": "A PC can reach a server by its IP address but not by its name. Which service should you check?",
+      "options": [
+        "DNS",
+        "DHCP",
+        "Default gateway",
+        "Subnet mask"
+      ],
+      "answer": "DNS",
+      "points": 1
+    },
+    {
+      "id": 14,
+      "difficulty": "Hard",
+      "topic": "Networks",
+      "question": "What is the network address of host 192.168.1.130/25?",
+      "options": [
+        "192.168.1.0",
+        "192.168.1.128",
+        "192.168.1.130",
+        "192.168.1.255"
+      ],
+      "answer": "192.168.1.128",
+      "points": 1.9
+    },
+    {
+      "id": 15,
+      "difficulty": "Easy",
+      "topic": "Cyber",
+      "question": "You get an urgent email asking you to verify your password through a link. What do you do?",
+      "options": [
+        "Click and log in quickly",
+        "Reply with your password",
+        "Do not click, report it",
+        "Forward it to friends"
+      ],
+      "answer": "Do not click, report it",
+      "points": 1
+    },
+    {
+      "id": 16,
+      "difficulty": "Medium",
+      "topic": "Cyber",
+      "question": "What is the best way for a system to store passwords?",
+      "options": [
+        "Plain text",
+        "Encrypted with one shared key",
+        "Salted hash",
+        "Base64 encoded"
+      ],
+      "answer": "Salted hash",
+      "points": 1.5
+    },
+    {
+      "id": 17,
+      "difficulty": "Medium",
+      "topic": "Cyber",
+      "question": "Which defence best stops SQL injection?",
+      "options": [
+        "Hiding error messages",
+        "Client-side validation only",
+        "Parameterised queries",
+        "Longer passwords"
+      ],
+      "answer": "Parameterised queries",
+      "points": 1.5
+    },
+    {
+      "id": 18,
+      "difficulty": "Easy",
+      "topic": "Cyber",
+      "question": "The browser padlock on a website means what?",
+      "options": [
+        "The connection is encrypted",
+        "The website owner is trustworthy",
+        "The site has no malware",
+        "Your device is protected from hackers"
+      ],
+      "answer": "The connection is encrypted",
+      "points": 1
+    },
+    {
+      "id": 19,
+      "difficulty": "Medium",
+      "topic": "Logic",
+      "question": "Next number: 3, 4, 6, 10, 18, ?",
+      "options": [
+        "26",
+        "32",
+        "34",
+        "36"
+      ],
+      "answer": "34",
+      "points": 1.5
+    },
+    {
+      "id": 20,
+      "difficulty": "Easy",
+      "topic": "Logic",
+      "question": "What is binary 1011 + 0111 in decimal?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "answer": "18",
+      "points": 1
+    },
+    {
+      "id": 21,
+      "difficulty": "Medium",
+      "topic": "Logic",
+      "question": "A=1, B=0, C=1. Evaluate (NOT (A AND B)) XOR C.",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "A"
+      ],
+      "answer": "0",
+      "points": 1.5
+    },
+    {
+      "id": 22,
+      "difficulty": "Easy",
+      "topic": "Logic",
+      "question": "Next number: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "44"
+      ],
+      "answer": "42",
+      "points": 1
+    },
+    {
+      "id": 23,
+      "difficulty": "Easy",
+      "topic": "Terms",
+      "question": "Which term describes automatically adding servers when traffic spikes?",
+      "options": [
+        "Load balancing",
+        "Auto-scaling",
+        "Caching",
+        "Sharding"
+      ],
+      "answer": "Auto-scaling",
+      "points": 1
+    },
+    {
+      "id": 24,
+      "difficulty": "Easy",
+      "topic": "Terms",
+      "question": "A user is logged in but refused access to a page. Which HTTP status fits best?",
+      "options": [
+        "200",
+        "401",
+        "403",
+        "404"
+      ],
+      "answer": "403",
+      "points": 1
+    },
+    {
+      "id": 25,
+      "difficulty": "Easy",
+      "topic": "Emoji",
+      "question": "🦠💻🔓 What does this represent?",
+      "options": [
+        "Computer Worm",
+        "Trojan Horse",
+        "Computer Virus",
+        "Ransomware"
+      ],
+      "answer": "Computer Virus",
+      "points": 1
+    },
+    {
+      "id": 26,
+      "difficulty": "Easy",
+      "topic": "Emoji",
+      "question": "🔥🧱🚫 What does this represent?",
+      "options": [
+        "Antivirus",
+        "Firewall",
+        "Intrusion Detection System",
+        "Network Filter"
+      ],
+      "answer": "Firewall",
+      "points": 1
+    },
+    {
+      "id": 27,
+      "difficulty": "Medium",
+      "topic": "Emoji",
+      "question": "📦🚢💻🔄 What does this represent?",
+      "options": [
+        "Virtual Machine",
+        "Containerization",
+        "Cloud Migration",
+        "Software Deployment"
+      ],
+      "answer": "Containerization",
+      "points": 1.5
+    },
+    {
+      "id": 28,
+      "difficulty": "Medium",
+      "topic": "Emoji",
+      "question": "🕵️‍♂️📡📥📤 What does this represent?",
+      "options": [
+        "Packet Sniffing",
+        "Port Scanning",
+        "Network Mapping",
+        "IP Spoofing"
+      ],
+      "answer": "Packet Sniffing",
+      "points": 1.5
+    },
+    {
+      "id": 29,
+      "difficulty": "Hard",
+      "topic": "Emoji",
+      "question": "🗄️⚡🔄📊 What does this represent?",
+      "options": [
+        "Database Replication",
+        "Database Sharding",
+        "Database Normalization",
+        "Database Indexing"
+      ],
+      "answer": "Database Replication",
+      "points": 1.9
+    },
+    {
+      "id": 30,
+      "difficulty": "Hard",
+      "topic": "Emoji",
+      "question": "🤖🎯🏆🔁 What does this represent?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Transfer Learning"
+      ],
+      "answer": "Reinforcement Learning",
+      "points": 1.9
+    }
+  ],
+  "cases": {
+    "A": {
+      "title": "CASE A — THE SHARED FOLDER",
+      "description": "A company’s staff noticed odd behaviour on their computers after someone opened a document from a shared folder. The IT team has pulled the file’s details and a log of what happened on one affected computer. You are the investigators.",
+      "guide": "What you’re given: Exhibit A shows the file properties; Exhibit B logs programs starting, network connections and scheduled tasks; Exhibit C contains notes about normal activity. How to read it: Each log line has a time, the program that acted and what it did. “Started” means one program launched another, so follow the chain one step at a time. An address such as 185.220.0.14:443 is a remote address and port. What you’ll be asked: identify the real file type, follow the process chain, spot when malware persistence was created, and choose the first containment step. Watch out for: activity that looks normal but is not. Check each line before trusting its name.",
+      "exhibits": [
+        [
+          "Exhibit A — file properties",
+          "Displayed name   Annual_Report.pdf\nIcon             PDF\nSize             2 KB\nOpens with       Windows Shell"
+        ],
+        [
+          "Exhibit B — process and network log",
+          "09:41:02 explorer.exe (4120) started cmd.exe (5510)\n09:41:03 cmd.exe (5510) started powershell.exe (5522) -w hidden -enc JAB...\n09:41:05 powershell.exe (5522) connected to 185.220.0.14:443\n09:43:20 schtasks.exe created task \"WinUpdateCheck\" (run at logon) -> C:\\Users\\Public\\upd.exe\n09:43:21 upd.exe connected to 185.220.0.14:443\n10:05:00 chrome.exe connected to 142.250.80.46:443\n10:12:00 backup.exe wrote 4 GB to \\\\NAS01\\backup"
+        ],
+        [
+          "Exhibit C — red herrings",
+          "The backup job and the browser traffic are normal."
+        ]
+      ],
+      "questions": [
+        {
+          "q": "What is the real file type of “Annual_Report.pdf”?",
+          "accepted": [
+            "lnk",
+            ".lnk",
+            "shortcut",
+            "windows shortcut"
+          ],
+          "hint": "Ask whether a multi-page report fits in a couple of kilobytes.",
+          "points": 4
+        },
+        {
+          "q": "Which program directly launched PowerShell?",
+          "accepted": [
+            "cmd.exe",
+            "cmd",
+            "command prompt"
+          ],
+          "hint": "Follow who started whom, one step at a time.",
+          "points": 4
+        },
+        {
+          "q": "At what time did the attacker make sure the malware survives a restart?",
+          "accepted": [
+            "09:43:20",
+            "9:43:20"
+          ],
+          "hint": "Look for the line that schedules something to run at logon.",
+          "points": 6
+        },
+        {
+          "q": "What is the first containment step that keeps evidence in memory intact?",
+          "accepted": [
+            "isolate the host",
+            "isolate the device",
+            "isolate the machine",
+            "disconnect from network",
+            "disconnect from the network",
+            "network isolation",
+            "quarantine the host",
+            "unplug network cable"
+          ],
+          "hint": "Evidence in memory disappears when power is lost.",
+          "points": 6
+        }
+      ]
+    },
+    "B": {
+      "title": "CASE B — THE STUDENT PORTAL",
+      "description": "The student portal slowed down for about two minutes one morning. Someone checked the web server’s log and noticed unusual requests. You are the incident response team.",
+      "guide": "What you’re given: Exhibit A is the web server request log; Exhibit B contains other notes, some of which may not matter. How to read it: Each line shows a time, the request and the result. 200 means success, 500 means the server hit an error, and rows= shows how many database records came back. In a web address, %20 is a space and %27 is an apostrophe. What you’ll be asked: find the first hostile request, identify the attack, name the keyword that attached another table’s data, and give the coding practice that prevents it. Watch out for: the same character can be harmless. Compare the server response, not just the character.",
+      "exhibits": [
+        [
+          "Exhibit A — web server log",
+          "10:01:40 GET /search?name=O%27Brien                                200\n10:02:11 GET /courses?id=12                                        200\n10:02:19 GET /courses?id=12&sort=name                              200\n10:02:26 GET /static/logo.png                                      200\n10:02:30 GET /courses?id=12%27                                     500\n10:02:44 GET /courses?id=12%20OR%201%3D1                           200  rows=4800\n10:03:02 GET /courses?id=12%20UnIoN%20SeLeCt%20username,password%20FrOm%20users  200\n10:05:10 POST /login user=asha                                     200"
+        ],
+        [
+          "Exhibit B — red herrings",
+          "Server load stayed normal, and the certificate expires next month."
+        ]
+      ],
+      "questions": [
+        {
+          "q": "At what time did the first hostile request arrive?",
+          "accepted": [
+            "10:02:30"
+          ],
+          "hint": "The same character can be harmless. Compare what the server did with it each time.",
+          "points": 4
+        },
+        {
+          "q": "What type of attack is this?",
+          "accepted": [
+            "sql injection",
+            "sqli"
+          ],
+          "hint": "Decode the % codes and read what was added after id=12.",
+          "points": 4
+        },
+        {
+          "q": "Which keyword at 10:03:02 attached data from another table?",
+          "accepted": [
+            "union",
+            "union select"
+          ],
+          "hint": "It combines the results of two SELECT queries.",
+          "points": 6
+        },
+        {
+          "q": "Which ONE coding practice removes the root cause?",
+          "accepted": [
+            "parameterised queries",
+            "parameterized queries",
+            "prepared statements",
+            "prepared statement",
+            "bind variables",
+            "parameter binding"
+          ],
+          "hint": "The fix stops user input from ever being treated as SQL.",
+          "points": 6
+        }
+      ]
+    },
+    "C": {
+      "title": "CASE C — THE CONFERENCE WI-FI",
+      "description": "After a conference, accounts were used from another city. The security team collected a scan of the Wi-Fi at the venue, the certificate shown on a login page and the company’s sign-in log. You are the investigators.",
+      "guide": "What you’re given: Exhibit A shows the Wi-Fi networks visible at the conference; Exhibit B shows the certificate on a login page; Exhibit C is the sign-in log; Exhibit D is a note that may not matter. How to read it: WPA2 means a network needs a password, while Open means it does not. A certificate states which website it was issued to, so compare that with the page address. Read the sign-in log in time order and compare the cities. What you’ll be asked: identify the certificate domain, find whose account was used first from the unfamiliar city, name the wireless attack, and say how to remove an attacker who is already signed in. Watch out for: two things that look identical but are not. Compare line by line.",
+      "exhibits": [
+        [
+          "Exhibit A — Wi-Fi scan at the conference",
+          "SSID             Security   Signal\nCORPORATE_GUEST  WPA2-Pers  -70\nCORPORATE_GUEST  Open       -38"
+        ],
+        [
+          "Exhibit B — certificate shown on the login page",
+          "Page address     login.company.com\nIssued to        login-company-secure.net\nIssued by        Unknown (self-signed)\nValid from       today"
+        ],
+        [
+          "Exhibit C — sign-in log",
+          "14:02:10 amit  OK    ip=10.40.5.22   city=Chennai\n14:05:44 sana  OK    ip=10.40.5.31   city=Chennai\n14:09:03 amit  OK    ip=185.220.9.7  city=Bucharest\n14:11:30 sana  OK    ip=185.220.9.7  city=Bucharest\n15:20:00 ravi  FAIL  ip=10.40.5.40   city=Chennai\n15:20:08 ravi  OK    ip=10.40.5.40   city=Chennai"
+        ],
+        [
+          "Exhibit D — red herring",
+          "Ravi mistyped his password once."
+        ]
+      ],
+      "questions": [
+        {
+          "q": "In Exhibit B, which domain was the certificate actually issued to?",
+          "accepted": [
+            "login-company-secure.net"
+          ],
+          "hint": "Read the “Issued to” line character by character.",
+          "points": 4
+        },
+        {
+          "q": "Whose account was used from the unfamiliar city first?",
+          "accepted": [
+            "amit"
+          ],
+          "hint": "Order the log by time, not by who complained first.",
+          "points": 4
+        },
+        {
+          "q": "Name the wireless attack shown in Exhibit A.",
+          "accepted": [
+            "evil twin",
+            "evil twin attack",
+            "rogue access point",
+            "rogue ap"
+          ],
+          "hint": "Two networks share one name, and only one asks for no password.",
+          "points": 6
+        },
+        {
+          "q": "Beyond resetting passwords, which action cuts off an attacker who is already signed in?",
+          "accepted": [
+            "revoke sessions",
+            "invalidate sessions",
+            "sign out all sessions",
+            "revoke tokens",
+            "kill active sessions",
+            "force logout"
+          ],
+          "hint": "Changing the lock does not remove someone already inside.",
+          "points": 6
+        }
+      ]
+    }
+  }
+}

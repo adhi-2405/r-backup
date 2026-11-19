@@ -1,0 +1,21 @@
+{
+  "name": "code-clash-borderland-protocol",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CODE CLASH: Borderland Protocol live competition platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "loadtest": "node scripts/loadtest.js",
+    "seed:test": "node scripts/seed-test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "dotenv": "^16.4.7"
+  }
+}

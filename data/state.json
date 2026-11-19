@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "createdAt": 1795011786756,
+  "event": {
+    "status": "upcoming",
+    "r1StartedAt": null,
+    "r1EndsAt": null,
+    "r2StartedAt": null,
+    "r2EndsAt": null,
+    "pauseAt": null,
+    "pausedMs": 0,
+    "finalistsLimit": 12,
+    "winnersPublished": false,
+    "loginOpen": true,
+    "leaderboardVisible": false
+  },
+  "players": {},
+  "sessions": {},
+  "roster": null,
+  "assignments": {},
+  "audit": [],
+  "suddenDeath": null,
+  "acceptedAdditions": {}
+}
